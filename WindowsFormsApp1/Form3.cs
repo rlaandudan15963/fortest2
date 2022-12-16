@@ -20,8 +20,8 @@ namespace WindowsFormsApp1
         private void Form3_Load(object sender, EventArgs e)
         {
             this.BackColor = Color.FromArgb(245, 132, 233);
+            label1.Text = "this is test";
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
