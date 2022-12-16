@@ -62,6 +62,7 @@ namespace WindowsFormsApp1
             label3.Text = trackBar2.Value.ToString();
             green = trackBar2.Value;
             label3.ForeColor = Color.FromArgb(0, green, 0);
+            label2.ForeColor = Color.FromArgb(red, green, blue);
             Invalidate();
         }
 
