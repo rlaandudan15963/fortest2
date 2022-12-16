@@ -22,5 +22,10 @@ namespace WindowsFormsApp1
             Image image = new Bitmap(@"C:\Users\limm1\Desktop\2-2학기\3D프린팅\KakaoTalk_20221110_150049076.jpg");
             this.BackgroundImage = image;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
