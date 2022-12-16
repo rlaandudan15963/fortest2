@@ -30,7 +30,9 @@ namespace WindowsFormsApp1
 
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
+            int red = trackBar1.Value;
             label1.Text = trackBar1.Value.ToString();
+            
         }
     }
 }
