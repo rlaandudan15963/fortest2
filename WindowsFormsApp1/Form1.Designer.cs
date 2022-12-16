@@ -37,7 +37,6 @@
             this.trackBar2 = new System.Windows.Forms.TrackBar();
             this.label4 = new System.Windows.Forms.Label();
             this.trackBar3 = new System.Windows.Forms.TrackBar();
-            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
@@ -134,21 +133,11 @@
             this.trackBar3.TickFrequency = 20;
             this.trackBar3.Scroll += new System.EventHandler(this.trackBar3_Scroll);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(251, 16);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 12);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "label5";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(311, 509);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.trackBar3);
             this.Controls.Add(this.label3);
@@ -181,7 +170,6 @@
         private System.Windows.Forms.TrackBar trackBar2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TrackBar trackBar3;
-        private System.Windows.Forms.Label label5;
     }
 }
 
