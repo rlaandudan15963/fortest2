@@ -53,5 +53,12 @@ namespace WindowsFormsApp1
             pt[i-1] = e.Location;
             Invalidate();
         }
+
+        private void trackBar2_Scroll(object sender, EventArgs e)
+        {
+            label3.Text = trackBar1.Value.ToString();
+            label3.ForeColor = Color.FromArgb(0, green, 0);
+            Invalidate();
+        }
     }
 }
