@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            
+            this.BackColor = SystemColors.Window;
         }
 
         private void button1_Click(object sender, EventArgs e)
