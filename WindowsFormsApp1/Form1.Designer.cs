@@ -127,6 +127,7 @@
             this.trackBar3.Size = new System.Drawing.Size(104, 45);
             this.trackBar3.TabIndex = 7;
             this.trackBar3.TickFrequency = 20;
+            this.trackBar3.Scroll += new System.EventHandler(this.trackBar3_Scroll);
             // 
             // Form1
             // 
