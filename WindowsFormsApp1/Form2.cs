@@ -19,8 +19,12 @@ namespace WindowsFormsApp1
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            Image image = new Bitmap(@"C:\Users\limm1\Desktop\석양.jpg");
-            this.BackgroundImage = image;
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
