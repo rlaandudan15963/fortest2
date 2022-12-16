@@ -56,14 +56,14 @@ namespace WindowsFormsApp1
 
         private void trackBar2_Scroll(object sender, EventArgs e)
         {
-            label3.Text = trackBar1.Value.ToString();
+            label3.Text = trackBar2.Value.ToString();
             label3.ForeColor = Color.FromArgb(0, green, 0);
             Invalidate();
         }
 
         private void trackBar3_Scroll(object sender, EventArgs e)
         {
-            label4.Text = trackBar1.Value.ToString();
+            label4.Text = trackBar3.Value.ToString();
             label4.ForeColor = Color.FromArgb(0, 0, blue);
             Invalidate();
         }
