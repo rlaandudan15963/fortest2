@@ -36,6 +36,8 @@ namespace WindowsFormsApp1
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
             label1.Text = trackBar1.Value.ToString();
+            label1.ForeColor = Color.FromArgb(red, 0, 0);
+            Invalidate();
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
