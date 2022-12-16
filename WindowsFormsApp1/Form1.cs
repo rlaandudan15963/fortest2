@@ -12,6 +12,11 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        int red = 0;
+        int green = 0;
+        int blue = 0;
+        int i = 1;
+        Point[] pt;
         public Form1()
         {
             InitializeComponent();
@@ -35,7 +40,10 @@ namespace WindowsFormsApp1
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-
+            Graphics g = e.Graphics;
+            Pen p = new Pen(Color.FromArgb(red, green, blue));
+            if(i > 2)
+                g.DrawLines(p, pt);
         }
     }
 }
