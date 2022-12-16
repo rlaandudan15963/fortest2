@@ -16,10 +16,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-        Form1 form1 = new Form1();
+
         private void Form3_Load(object sender, EventArgs e)
         {
-            this.BackColor = Color.FromArgb(form1.red, form1.green, form1.blue);
+            this.BackColor = Color.FromArgb(245, 132, 233);
         }
 
         private void button1_Click(object sender, EventArgs e)
