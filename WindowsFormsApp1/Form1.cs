@@ -45,5 +45,9 @@ namespace WindowsFormsApp1
             if(i > 2)
                 g.DrawLines(p, pt);
         }
+        private void Form1_MouseClick(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }
