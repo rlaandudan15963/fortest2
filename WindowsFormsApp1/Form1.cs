@@ -52,6 +52,7 @@ namespace WindowsFormsApp1
         {
             Array.Resize(ref pt, i);
             pt[i-1] = e.Location;
+            i++;
             Invalidate();
         }
 
@@ -66,6 +67,7 @@ namespace WindowsFormsApp1
         private void trackBar3_Scroll(object sender, EventArgs e)
         {
             label4.Text = trackBar3.Value.ToString();
+            blue = trackBar3.Value;
             label4.ForeColor = Color.FromArgb(0, 0, blue);
             Invalidate();
         }
