@@ -27,5 +27,10 @@ namespace WindowsFormsApp1
         {
             form3.Show();
         }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            label1.Text = trackBar1.Value.ToString();
+        }
     }
 }
