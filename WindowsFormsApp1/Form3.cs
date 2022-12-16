@@ -16,11 +16,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-
+        Form1 form1 = new Form1();
         private void Form3_Load(object sender, EventArgs e)
         {
-            Image image = new Bitmap(@"C:\Users\limm1\Desktop\2-2학기\3D프린팅\KakaoTalk_20221110_150049076.jpg");
-            this.BackgroundImage = image;
+            this.BackColor = Color.FromArgb(form1.red, form1.green, form1.blue);
         }
 
         private void button1_Click(object sender, EventArgs e)

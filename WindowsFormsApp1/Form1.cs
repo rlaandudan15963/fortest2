@@ -12,9 +12,9 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        int red = 0;
-        int green = 0;
-        int blue = 0;
+        public int red = 0;
+        public int green = 0;
+        public int blue = 0;
         int i = 1;
         Point[] pt = new Point[1];
         public Form1()
