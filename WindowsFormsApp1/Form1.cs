@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         int green = 0;
         int blue = 0;
         int i = 1;
-        Point[] pt;
+        Point[] pt = new Point[1];
         public Form1()
         {
             InitializeComponent();
@@ -47,7 +47,9 @@ namespace WindowsFormsApp1
         }
         private void Form1_MouseClick(object sender, MouseEventArgs e)
         {
-
+            Array.Resize(ref pt, i);
+            pt[i-1] = e.Location;
+            Invalidate();
         }
     }
 }
